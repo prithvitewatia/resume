@@ -10,24 +10,12 @@ Gurugram, India | 9958850226 | prithvisinghtewatia@gmail.com | `LinkedIn <https:
 Professional Summary
 ====================
 
-Senior Backend and Platform Engineer with 4 years of experience building scalable,
-high-performance systems in Python (Django, Sanic) and Java (Spring Boot).
+**Senior Backend and Platform Engineer with 4 years of experience** building scalable,
+high-performance systems in Python (Django, Fastapi) and Java (Spring Boot).
 Certified Kubernetes Administrator (CKA). Experience in cloud and telco
 infrastructure benchmarking (OpenStack, Kubernetes), performance engineering,
 microservices, and CI/CD. Open-source contributor to NumPy, Spring Boot,
-Hibernate ORM and WireMock. Led teams of 3+ engineers and mentored 10+ developers.
-
-
-Technical Skills
-================
-
-- **Languages:** Python, Java, SQL
-- **Frameworks:** Django, Sanic, Spring Boot, Celery, PyTest, REST Assured
-- **Cloud and DevOps:** Kubernetes, OpenShift, OpenStack, Docker, AWS, Jenkins, Debian packaging, CI/CD
-- **Performance and Benchmarking:** Rally, Xrally, CoreMark, UnixBench, SNIA SSS PTS, Slurm, NFVI benchmarking
-- **Databases and Caching:** PostgreSQL, MongoDB, Redis
-- **Practices:** Microservices architecture, system design (HLD/LLD), API design, Agile, team leadership, mentoring
-
+Hibernate ORM and WireMock.
 
 Professional Experience
 =======================
@@ -37,16 +25,13 @@ Member of Technical Staff 2 (MTS-2), Voereir India
 
 .. class:: dateline
 
-*Noida | 05/2025 - Present (Promoted from MTS-1 to MTS-2 in 05/2026)*
+*Noida, 05/2025 - Present (Promoted from MTS-1 to MTS-2 in 05/2026)*
 
-- Built NFVI benchmarking capabilities on the Touchstone platform to validate performance of OpenStack and Kubernetes-based telco clouds.
-- Integrated CoreMark and UnixBench into Touchstone for automated CPU performance testing across virtualized and containerized environments.
 - Designed and implemented a modified SNIA SSS PTS v2 solid-state-drive benchmark, adapted to measure storage-layer performance where multiple VMs or pods share storage, instead of the single-SSD scenario the standard assumes.
-- Integrated Slurm into Touchstone to benchmark Slurm-based HPC clusters.
+- Integrated Slurm to benchmark Slurm-based HPC clusters.
 - Migrated Touchstone, Rally and Xrally (external engines integrated in Touchstone) from Python 3.10 to 3.12 ahead of end-of-life, covering application changes in all components and packaging for Debian and cloud-native deployments.
 - Reduced Debian package size by 27% and cloud-native image size by 76%.
 - Reduced application memory footprint by 52%.
-- [Add if true: number of customers/clusters/test runs supported, or time saved per benchmark cycle.]
 
 
 Software Engineer, Zopper
@@ -64,10 +49,6 @@ Software Engineer, Zopper
 - Mentored 10+ junior developers and interns through code reviews and best practices in API design, database performance and scalable architecture.
 
 
-.. raw:: pdf
-
-   PageBreak
-
 Software Engineer, Tata 1mg
 ---------------------------
 
@@ -82,6 +63,22 @@ Software Engineer, Tata 1mg
 - Raised test coverage to 92% with PyTest unit and integration tests.
 - Built Corporate Wellness features using Python and Sanic for high-performance asynchronous APIs.
 
+Certifications
+==============
+
+- Certified Kubernetes Administrator (CKA), CNCF / Linux Foundation | 2026 | Credential ID: LF-ghi6pjq803
+
+
+Technical Skills
+================
+
+- **Languages:** Python, Java, SQL
+- **Frameworks:** Django, Sanic, Spring Boot, Celery, PyTest, REST Assured
+- **Cloud and DevOps:** Kubernetes, OpenShift, OpenStack, Docker, AWS, Jenkins, Debian packaging, CI/CD
+- **Performance and Benchmarking:** Rally, Xrally, CoreMark, UnixBench, SNIA SSS PTS, Slurm, NFVI benchmarking
+- **Databases and Caching:** PostgreSQL, MongoDB, Redis
+- **Practices:** Microservices architecture, system design (HLD/LLD), API design, Agile, team leadership, mentoring
+
 
 Open Source Contributions
 =========================
@@ -91,12 +88,6 @@ Open Source Contributions
 - **Spring Boot / Gradle 8:** Enhanced Gradle writers for Gradle-based Spring projects.
 - **Hibernate ORM 6.3:** Introduced a new setting for JPA delete compliance.
 - **WireMock 3.4.0:** Added support for matching GET/HEAD requests in HTTP mocking.
-
-
-Certifications
-==============
-
-- Certified Kubernetes Administrator (CKA), CNCF / Linux Foundation | [2026] | Credential ID: [LF-ghi6pjq803]
 
 
 Education
