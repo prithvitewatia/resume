@@ -1,0 +1,131 @@
+# rst2pdf stylesheet for a compact, ATS-friendly one/two page resume.
+# Uses built-in PDF fonts (Helvetica) so it renders the same on any machine.
+pageSetup:
+  size: A4
+  width: null
+  height: null
+  margin-top: 1.2cm
+  margin-bottom: 1.2cm
+  margin-left: 1.6cm
+  margin-right: 1.6cm
+  margin-gutter: 0cm
+  spacing-header: 0cm
+  spacing-footer: 0cm
+  firstTemplate: emptyPage
+
+fonts:
+  - [sans, Helvetica, Helvetica-Bold, Helvetica-Oblique, Helvetica-BoldOblique]
+
+fontsAlias:
+  stdFont: Helvetica
+  stdBold: Helvetica-Bold
+  stdItalic: Helvetica-Oblique
+  stdBoldItalic: Helvetica-BoldOblique
+  stdMono: Courier
+  stdMonoBold: Courier-Bold
+  stdMonoItalic: Courier-Oblique
+  stdMonoBoldItalic: Courier-BoldOblique
+  stdSans: Helvetica
+  stdSansBold: Helvetica-Bold
+
+styles:
+  base:
+    parent: null
+    fontName: stdFont
+    fontSize: 9.5
+    leading: 12
+    alignment: TA_LEFT
+
+  normal:
+    parent: base
+    spaceBefore: 0
+    spaceAfter: 2
+
+  bodytext:
+    parent: normal
+    alignment: TA_LEFT
+
+  dateline:
+    parent: bodytext
+    fontName: stdItalic
+    spaceAfter: 2
+    keepWithNext: true
+
+  contact:
+    parent: bodytext
+    alignment: TA_CENTER
+    fontSize: 9
+    spaceAfter: 4
+
+  # Name
+  title:
+    parent: base
+    fontName: stdBold
+    fontSize: 20
+    leading: 24
+    alignment: TA_CENTER
+    spaceBefore: 0
+    spaceAfter: 2
+    textColor: "#111111"
+
+  # Section headings (Professional Summary, Skills, ...)
+  heading1:
+    parent: base
+    fontName: stdBold
+    fontSize: 11
+    leading: 13
+    spaceBefore: 9
+    spaceAfter: 3
+    textColor: "#1F3A5F"
+    borderColor: "#1F3A5F"
+    borderWidth: 0
+    borderPadding: 0
+    keepWithNext: true
+
+  # Job titles
+  heading2:
+    parent: base
+    fontName: stdBold
+    fontSize: 10
+    leading: 12
+    spaceBefore: 6
+    spaceAfter: 0
+    keepWithNext: true
+
+  heading3:
+    parent: heading2
+
+  # Bullets
+  bullet-list:
+    parent: bodytext
+    bulletFontName: stdFont
+    bulletFontSize: 9
+    bulletIndent: 4
+    leftIndent: 14
+    spaceBefore: 0
+    spaceAfter: 1.5
+
+  item-list:
+    parent: bodytext
+    leftIndent: 14
+    spaceAfter: 1.5
+
+  list-item:
+    parent: bodytext
+    spaceAfter: 1.5
+
+  emphasis:
+    parent: base
+    fontName: stdItalic
+
+  strong:
+    parent: base
+    fontName: stdBold
+
+  literal:
+    parent: base
+    fontName: stdMono
+
+  link:
+    parent: base
+    textColor: "#1F3A5F"

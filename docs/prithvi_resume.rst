@@ -2,6 +2,8 @@
 PRITHVI SINGH
 =============
 
+.. class:: contact
+
 Gurugram, India | 9958850226 | prithvisinghtewatia@gmail.com | `LinkedIn <https://www.linkedin.com/in/prithvi-singh-tewatia/>`_ | `GitHub <https://github.com/prithvitewatia>`_
 
 
@@ -33,6 +35,8 @@ Professional Experience
 Member of Technical Staff 2 (MTS-2), Voereir India
 --------------------------------------------------
 
+.. class:: dateline
+
 *Noida | 05/2025 - Present (Promoted from MTS-1 to MTS-2 in 05/2026)*
 
 - Built NFVI benchmarking capabilities on the Touchstone platform to validate performance of OpenStack and Kubernetes-based telco clouds.
@@ -48,6 +52,8 @@ Member of Technical Staff 2 (MTS-2), Voereir India
 Software Engineer, Zopper
 -------------------------
 
+.. class:: dateline
+
 *Noida, India | 08/2024 - 05/2025*
 
 - Led a team of 3 engineers to integrate 15 insurance plans across 5 insurers for Mahindra Insurance Brokers Ltd, enabling 2,000+ group health policy sales.
@@ -58,8 +64,14 @@ Software Engineer, Zopper
 - Mentored 10+ junior developers and interns through code reviews and best practices in API design, database performance and scalable architecture.
 
 
+.. raw:: pdf
+
+   PageBreak
+
 Software Engineer, Tata 1mg
 ---------------------------
+
+.. class:: dateline
 
 *Gurugram, India | 08/2022 - 08/2024*
 
