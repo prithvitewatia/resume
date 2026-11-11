@@ -39,7 +39,7 @@ Software Engineer, Zopper
 
 *Noida | 08/2024 - 05/2025*
 
-- Led 3 engineers to integrate 15 insurance plans from 5 insurers for Mahindra Insurance Brokers, enabling 2,000+ group health policy sales.
+- Led 3 engineers to integrate 15 plans from 5 insurers for Mahindra Insurance Brokers, enabling 2,000+ policy sales.
 - Integrated 22 plans from 4 insurers into Indian Bank and Bank of Maharashtra bancassurance platforms, contributing to 15,000+ policy sales.
 - Built billing and payment modules with per-user/policy billing and automated invoicing, handling 10 lakh+ policies and 60K+ users.
 - Led the Docker to OpenShift migration for Indian Bank (84% faster deployments) and refactored premium, transaction and proposal microservices with Celery and Django ORM tuning (60% faster APIs).
@@ -53,10 +53,16 @@ Software Engineer, Tata 1mg
 
 *Gurugram | 08/2022 - 08/2024*
 
-- Launched Micro Care Plan subscriptions (80,000+ active users) and Cash-on-Delivery for Care Plans, lifting subscription purchases by 8%.
+- Launched Micro Care Plan subscriptions (80,000+ users) and Cash-on-Delivery for Care Plans (+8% purchases).
 - Migrated the diagnostics notification microservice into the main notification service, owning HLD, LLD, development and testing, making it 5x more scalable.
 - Cut API testing time by 70% with a Java, Spring Boot and REST Assured automation framework; raised test coverage to 92% with PyTest.
 - Built Corporate Wellness features using Python and Sanic asynchronous APIs.
+
+
+Projects
+========
+
+- **Bloatware Remover** (Python, FastAPI, ADB) | `GitHub <https://github.com/prithvitewatia/bloatware-remover>`_ | 17 stars: Built and released (v1.0.0) a web app that safely disables or uninstalls Android bloatware over wireless debugging, shipped as standalone macOS and Linux binaries with pytest tests and pre-commit hooks.
 
 
 Technical Skills
@@ -71,10 +77,8 @@ Technical Skills
 Open Source Contributions
 =========================
 
-- **NumPy 1.25.0:** Fixed a complex exponentiation bug, released to 1.6M+ users.
-- **Spring Initializr 0.20 / Spring Boot:** Added Kotlin DSL assertions, fixed Maven resolver bugs, improved Gradle writers.
-- **Hibernate ORM 6.3:** Added a setting for JPA delete compliance.
-- **WireMock 3.4.0:** Added support for matching GET/HEAD requests.
+- **NumPy 1.25.0:** Fixed a complex exponentiation bug (1.6M+ users). **Hibernate ORM 6.3:** Added a JPA delete-compliance setting.
+- **Spring Initializr 0.20 / Spring Boot:** Kotlin DSL assertions, Maven resolver fixes, Gradle writers. **WireMock 3.4.0:** GET/HEAD request matching.
 
 
 Certifications and Education

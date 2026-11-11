@@ -4,8 +4,8 @@ pageSetup:
   size: A4
   width: null
   height: null
-  margin-top: 1.0cm
-  margin-bottom: 1.0cm
+  margin-top: 0.9cm
+  margin-bottom: 0.9cm
   margin-left: 1.6cm
   margin-right: 1.6cm
   margin-gutter: 0cm
@@ -32,8 +32,8 @@ styles:
   base:
     parent: null
     fontName: stdFont
-    fontSize: 9.3
-    leading: 11.4
+    fontSize: 9.2
+    leading: 11.0
     alignment: TA_LEFT
 
   normal:
