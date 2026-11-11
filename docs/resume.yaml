@@ -4,8 +4,8 @@ pageSetup:
   size: A4
   width: null
   height: null
-  margin-top: 1.2cm
-  margin-bottom: 1.2cm
+  margin-top: 1.0cm
+  margin-bottom: 1.0cm
   margin-left: 1.6cm
   margin-right: 1.6cm
   margin-gutter: 0cm
@@ -32,8 +32,8 @@ styles:
   base:
     parent: null
     fontName: stdFont
-    fontSize: 9.5
-    leading: 12
+    fontSize: 9.3
+    leading: 11.4
     alignment: TA_LEFT
 
   normal:
@@ -74,8 +74,8 @@ styles:
     fontName: stdBold
     fontSize: 11
     leading: 13
-    spaceBefore: 9
-    spaceAfter: 3
+    spaceBefore: 7
+    spaceAfter: 2
     textColor: "#1F3A5F"
     borderColor: "#1F3A5F"
     borderWidth: 0
@@ -88,7 +88,7 @@ styles:
     fontName: stdBold
     fontSize: 10
     leading: 12
-    spaceBefore: 6
+    spaceBefore: 4
     spaceAfter: 0
     keepWithNext: true
 
@@ -103,16 +103,16 @@ styles:
     bulletIndent: 4
     leftIndent: 14
     spaceBefore: 0
-    spaceAfter: 1.5
+    spaceAfter: 1
 
   item-list:
     parent: bodytext
     leftIndent: 14
-    spaceAfter: 1.5
+    spaceAfter: 1
 
   list-item:
     parent: bodytext
-    spaceAfter: 1.5
+    spaceAfter: 1
 
   emphasis:
     parent: base
