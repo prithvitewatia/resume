@@ -27,11 +27,11 @@ Member of Technical Staff 2 (MTS-2), Voereir India
 
 *Noida | 05/2025 - Present (Promoted from MTS-1 to MTS-2 in 05/2026)*
 
-- Developed NFVI benchmarking for **OpenStack and Kubernetes telco clouds** on the Touchstone platform, integrating **CoreMark, UnixBench and Slurm** for CPU and HPC-cluster performance tests.
+- Implemented support for enabling and disabling support of **Simultaneous Mutli-threading in Touchstone**, enabling users to measure the performance enhancement and degradation in different scenarios.
 - Designed a modified **SNIA SSS PTS v2 SSD** benchmark for shared storage layers, where multiple VMs or pods interact, instead of the single-drive setup the standard assumes.
 - Migrated **Touchstone, Rally and Xrally from Python 3.10 to 3.12** before end-of-life, including **Debian and cloud-native packaging**.
-- Reduced **Debian package size by 27%**, **container image size by up to 76%** and memory footprint by **52%**.
-- Improved performance of slow APIs by **20% on average** by tracing bottlenecks with **OpenTelemetry and Jaeger UI**, monitored with **Prometheus and Grafana**.
+- Reduced **container image size by up to 50%** for CI images by bifurcating and removing unnecessary packages installed.
+- **Migrated pre-commit to prek** for pre commit checks and **reducing code quality check time by 25%**.
 
 
 Software Engineer, Zopper
